@@ -1,6 +1,6 @@
 /* eslint-disable no-undef */
 import Board from "./components/Board/Board";
-import Editable from "./components/editableInput/Editable";
+import Editable from "./components/editableInput/EditableInput";
 import "./App.css";
 import { useEffect, useState } from "react";
 

@@ -4,7 +4,7 @@ import "./board.css";
 // import react-icons
 import { FiMoreHorizontal } from "react-icons/fi";
 import Card from "../card/Card";
-import Editable from "../editableInput/Editable";
+import Editable from "../editableInput/EditableInput";
 import Dropdown from "../dropdown/Dropdown";
 
 const Board = (props) => {

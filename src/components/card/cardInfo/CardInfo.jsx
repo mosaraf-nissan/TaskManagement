@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import "./cardInfo.css";
 import Modal from "../../modal/Modal";
 import { MdTitle } from "react-icons/md";
-import Editable from "../../editableInput/Editable";
+import Editable from "../../editableInput/EditableInput";
 import {
   FiCalendar,
   FiCheckSquare,
