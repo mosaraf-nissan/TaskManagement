@@ -9,7 +9,7 @@ function App() {
   const [isToggle, setToggle] = useState(true);
   console.log(isToggle);
 
-  // main tasks state
+  // main tasks state and get from localStorage
   const [boards, setBoards] = useState(
     JSON.parse(localStorage.getItem("taskBoard")) || []
   );
