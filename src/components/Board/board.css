@@ -1,0 +1,71 @@
+.board {
+  min-width: 290px;
+  width: 290px;
+  padding: 5px;
+  max-height: 100%;
+  flex-basis: 290px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-right: 20px;
+  background-color: darkgrey;
+  color: white;
+}
+.borad_top {
+  display: flex;
+}
+.board_top_more {
+  position: relative;
+}
+
+.board_dropdown {
+  background-color: #fff;
+  width: 130px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.board_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.board_top_title {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  gap: 5px;
+}
+.board_top_title span {
+  color: rgb(145, 145, 145);
+}
+.board_cards {
+  height: 100%;
+  flex: 1;
+  color: black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  overflow-y: auto;
+}
+.board_cards_add {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 2px 0 1px rgba(0, 0, 0, 0.15);
+}
+.board_cards_add:hover {
+  box-shadow: 1px 2px 0 1px #ccc;
+}
+.app_boards_board_add {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 1px 2px 0 1px rgba(0, 0, 0, 0.15);
+}
+.app_boards_board_add:hover {
+  box-shadow: 1px 2px 0 1px #ccc;
+}

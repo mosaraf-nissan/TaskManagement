@@ -1,0 +1,51 @@
+.card {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 10;
+  border: 1px solid;
+}
+.card_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.card_top_labels {
+  flex: 1;
+  display: flex;
+}
+.card_top svg {
+  opacity: 0;
+  transition: 200ms;
+}
+.card:hover .card_top svg {
+  opacity: 1;
+}
+.card_title {
+  font-weight: bold;
+  margin: 14px;
+}
+.card_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card p {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.card_top_more {
+  position: relative;
+}
+.card_dropdown {
+  background-color: #fff;
+  width: 130px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 0 20px rgba(0, 0, 0, 0.1);
+}
