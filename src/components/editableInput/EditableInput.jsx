@@ -4,7 +4,10 @@ import { RiCloseCircleFill } from "react-icons/ri";
 import "./editabl.css";
 
 const Editable = (props) => {
+  // toggle input for edit
   const [showEdit, setEdit] = useState(false);
+
+  // receive inputValue
   const [inputValue, setInputValue] = useState(props.default || "");
 
   // input validation
@@ -20,6 +23,7 @@ const Editable = (props) => {
 
   return (
     <div className="editable">
+      {/* toggle */}
       {showEdit ? (
         <form
           onSubmit={(event) => {

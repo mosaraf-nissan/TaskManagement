@@ -31,6 +31,8 @@ function App() {
       endDate: "",
       description: "",
     };
+
+    // find index for board
     const index = boards.findIndex((item) => item.id === boardId);
     if (index < 0) return;
     const tempBoards = [...boards];
