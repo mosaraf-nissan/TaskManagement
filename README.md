@@ -8,15 +8,14 @@ This is a simple Task Management System built using React. It allows users to cr
 - Categorize tasks into "TODO," "In Progress," and "Done" lists.
 - Include subtasks within each task.
 - View and edit task details.
-- Attach files to tasks.
-- Task filtering and searching.
+
 
 ## Installation
 
 1. Clone the repository or download the source code.
 2. Open your terminal and navigate to the project directory.
 3. Run `npm install` to install the project dependencies.
-4. Run `npm start` to start the development server.
+4. Run `npm run dev` to start the development server.
 5. Open your web browser and go to `http://localhost:3000` to access the Task Management System.
 
 ## Usage
@@ -44,6 +43,8 @@ Form validation is implemented using standard React techniques. When creating or
 Validation error messages are displayed for any violations.
 
 ## Screenshots
+![image](https://github.com/mosaraf-nissan/TaskManagement/assets/117709837/cd2de80f-df1b-4073-b8b3-798c5a8be0ad)
+
 
 ## Built With
 
