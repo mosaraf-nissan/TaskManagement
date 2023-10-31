@@ -1,3 +1,5 @@
+![image](https://github.com/mosaraf-nissan/TaskManagement/assets/117709837/671de8cd-e938-4b8a-9e9c-e1967190a07e)
+
 # Task Management System
 
 This is a simple Task Management System built using React. It allows users to create, manage, and track tasks across three categories: "TODO," "In Progress," and "Done." Users can also include subtasks and additional details for each task.
