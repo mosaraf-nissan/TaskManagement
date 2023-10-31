@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-import "./Dropdown.css";
+import "./dropdown.css";
 
 function Dropdown(props) {
   const dropdownRef = useRef();

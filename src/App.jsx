@@ -153,17 +153,16 @@ function App() {
           })}
 
           <div className="app_boards_board">
-            <div
-              onClick={() => setToggle(!isToggle)}
-              style={{ position: "relative" }}
-            >
-              <Editable
-                displayClass="app_boards_board_add"
-                text="Add Board"
-                placeholder="ex:-ToDo || InProgress || Completed"
-                buttonText="Set Board"
-                onSubmit={(value) => addBoard(value)}
-              />
+            <div style={{ position: "relative" }}>
+              <div onClick={() => setToggle(!isToggle)}>
+                <Editable
+                  displayClass="app_boards_board_add"
+                  text="Add Board"
+                  placeholder="ex:-ToDo || InProgress || Completed"
+                  buttonText="Set Board"
+                  onSubmit={(value) => addBoard(value)}
+                />
+              </div>
               {isToggle && (
                 <div
                   style={{
