@@ -129,7 +129,9 @@ function App() {
   return (
     <div className="app">
       <div className="app_navbar">
-        <h2>Task Management System</h2>
+        <h2 style={{ color: "red", fontSize: "28px" }}>
+          Task Management System
+        </h2>
         <span>Make your own Board then add you task as much as you want</span>
         <br />
         <span>
